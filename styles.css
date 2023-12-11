@@ -1,0 +1,55 @@
+/* CSS styles for the website */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sticky header styles */
+header {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 100;
+}
+
+/* Style for the logo link */
+.home-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+header img {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold; /* Make the top menu text bold */
+}
+
+/* CSS for the banner image */
+.banner-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Additional styles for the website */
+
+/* Define styles for other sections and pages as needed */
