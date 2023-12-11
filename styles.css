@@ -7,7 +7,7 @@ body {
 
 /* Sticky header styles */
 header {
-    position: sticky;
+    position: static;
     top: 0;
     background-color: #333;
     color: #fff;
